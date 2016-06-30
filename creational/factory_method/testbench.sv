@@ -1,4 +1,4 @@
-module factory_method;
+module testbench;
   factory             factory_inst;
   ice_cream_interface ice_cream;
 
@@ -14,4 +14,4 @@ module factory_method;
     ice_cream = factory_inst.get(2);
     ice_cream.functionallity();
   end
-endmodule : factory_method
+endmodule : testbench
